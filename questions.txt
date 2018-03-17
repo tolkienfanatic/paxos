@@ -1,3 +1,5 @@
-1.
+1. The bottleneck of the implementation would be handling the requests. The microservice could be scaled by deploying
+    multiple instances of the service behind a load balancer (of course there would be some extra work in making sure
+    that the hashes are accessible globally)
 2.
 3.
