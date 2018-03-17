@@ -7,6 +7,6 @@
     find_pair2 is O(n) - much better.
     Overall = O(n)
 3. X = Number of X's in the input string, n = length of input string
-    replace_x() is O(2X) = O(X)
+    replace_x() calls itself twice for each "X" in the string -> O(2^X)
     valid_input() is O(n)
-    Overall = O(X)
+    Overall = O(2^X) + O(n) = O(2^X)
