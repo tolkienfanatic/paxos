@@ -1,4 +1,3 @@
-import sys
 import argparse
 from csv import reader
 

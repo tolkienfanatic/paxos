@@ -1,4 +1,3 @@
-import sys
 import argparse
 
 # validate our string is well-formed
