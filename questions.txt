@@ -1,5 +1,12 @@
 1. The bottleneck of the implementation would be handling the requests. The microservice could be scaled by deploying
     multiple instances of the service behind a load balancer (of course there would be some extra work in making sure
     that the hashes are accessible globally)
-2.
-3.
+2. n = Number of items in the price list.
+    Parsing the file is O(n).
+    find_pair is O(n^2) due to the nested loops - bad!
+    find_pair2 is O(n) - much better.
+    Overall = O(n)
+3. X = Number of X's in the input string, n = length of input string
+    replace_x() is O(2X) = O(X)
+    valid_input() is O(n)
+    Overall = O(X)
